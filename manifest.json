@@ -5,7 +5,8 @@
   "manifest_version": 2,
   "permisions": ["webRequest", "webRequestBlocking", "<all_urls>"],
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["background.js"],
+    "persistent": true
   },
   "icons":{
     "16": "icons/logo_16x16.png",
