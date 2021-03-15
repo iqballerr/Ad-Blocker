@@ -9,7 +9,8 @@ const defaultFilters = [
   "*://*.exponential.com/*",
   "*://*.quantserve.com/*",
   "*://*.scorecardresearch.com/*",
-  "*://tpc.googlesyndication.com/*"
+  "*://tpc.googlesyndication.com/*",
+  "*://yt3.ggpht.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
