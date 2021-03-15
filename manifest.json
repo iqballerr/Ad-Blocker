@@ -2,5 +2,14 @@
   "name": "Block All Ads!",
   "description": "Google Chrome Ad-Blocker Extension.",
   "version": "1.0",
-  "manifest_version": 3
+  "manifest_version": 3,
+  "permisions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons":{
+    "16": "icons/logo_16x16.png",
+    "48": "icons/logo_48x48.png",
+    "128": "icons/logo_128x128.png"
+  }
 }
