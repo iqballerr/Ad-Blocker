@@ -1,10 +1,3 @@
-chrome.webRequest.onBeforeRequest.addListener(
-  function(details){ return { cancel: true}},
-  { urls: defaultFilters },
-  ["blocking"]
-)
-
-
 const defaultFilters = [
   "*://*.zedo.com/*",
   "*://*.doubleclick.net/*",
@@ -17,3 +10,9 @@ const defaultFilters = [
   "*://*.quantserve.com/*",
   "*://*.scorecardresearch.com/*",
 ]
+
+chrome.webRequest.onBeforeRequest.addListener(
+  function(details){ return { cancel: true}},
+  { urls: defaultFilters },
+  ["blocking"]
+)
