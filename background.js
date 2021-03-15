@@ -5,7 +5,7 @@ chrome.webRequest.onBeforeRequest.addListener(
 )
 
 
-defaultFilters = [
+const defaultFilters = [
   "*://*.zedo.com/*",
   "*://*.doubleclick.net/*",
   "*://partner.googleadservices.com/*",
