@@ -3,7 +3,7 @@
   "description": "Google Chrome Ad-Blocker Extension.",
   "version": "1.0",
   "manifest_version": 2,
-  "permisions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
   "background": {
     "scripts": ["background.js"],
     "persistent": true
